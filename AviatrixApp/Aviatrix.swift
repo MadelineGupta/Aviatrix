@@ -32,12 +32,12 @@ class Aviatrix {
         
     }
     
-    func distanceTo( target : String, current : String) -> Int {
-        return data.knownDistances[current]![target]!
+    func distanceTo(target : String, current : String) -> Double {
+        return Double(data.knownDistances[current]![target]!)
     }
     
     func knownDestinations() -> [String] {
-        return ["St. Louis", "Phoenix", "Denver", "Salt Lake City"]
-    }
+        return Array(data.knownDistances.keys)
 }
 
+}

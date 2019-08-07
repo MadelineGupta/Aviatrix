@@ -1,23 +1,15 @@
-//
-//  main.swift
-//  AviatrixApp
-//
-//  Created by Amy Holt on 6/10/18.
-//  Copyright © 2018 Amy Holt. All rights reserved.
-//
-
 import Foundation
 
 func gauges(myPlane : Aviatrix) {
     print("Reading the gauges...")
     print(" ")
-//    print("| Running:  | ✅")
-//    print("| Location:  | \(myPlane.location)")
-//    print("| Distance:  | \(myPlane.distanceTraveled) miles")
-//    print("| Fuel:      | \(myPlane.fuelLevel) gallons")
-//    print("| Max Fuel:  | \(myPlane.maxFuel) gallons")
-//    print("| MPG:       | \(myPlane.milesPerGallon)")
-//    print("| Fuel Bill: | \(myPlane.fuelCost)")
+    //    print("| Running:  | ✅")
+    //    print("| Location:  | \(myPlane.location)")
+    //    print("| Distance:  | \(myPlane.distanceTraveled) miles")
+    //    print("| Fuel:      | \(myPlane.fuelLevel) gallons")
+    //    print("| Max Fuel:  | \(myPlane.maxFuel) gallons")
+    //    print("| MPG:       | \(myPlane.milesPerGallon)")
+    //    print("| Fuel Bill: | \(myPlane.fuelCost)")
 }
 
 func fly(myPlane : Aviatrix) {
@@ -60,17 +52,17 @@ func refuel(myPlane : Aviatrix) {
 }
 
 func fuelCheck(myPlane : Aviatrix, destination : String) -> Bool {
-//    let distanceToTravel =  Double(myPlane.distanceTo(target : destination))
-//    if myPlane.fuelLevel < distanceToTravel {
-//        print(" ")
-//        print("🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥")
-//        print("Oh no! You've run out of fuel and crashed on the way to \(myPlane.location)!")
-//        print("🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥")
-//
-//        return false
-//    } else {
-//        return true
-//    }
+    //    let distanceToTravel =  Double(myPlane.distanceTo(target : destination))
+    //    if myPlane.fuelLevel < distanceToTravel {
+    //        print(" ")
+    //        print("🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥")
+    //        print("Oh no! You've run out of fuel and crashed on the way to \(myPlane.location)!")
+    //        print("🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥 🔥")
+    //
+    //        return false
+    //    } else {
+    //        return true
+    //    }
     return true
 }
 
